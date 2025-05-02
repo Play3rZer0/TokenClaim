@@ -4,7 +4,7 @@ pragma solidity ^0.8.3;
 
 import "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
 
-contract ClaimTrusterrasToken {
+contract ClaimToken {
     address public owner;
     uint256 public balance;
     address tokenAddress = //<token contract address> change this to the token address of the token contract
